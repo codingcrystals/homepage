@@ -1,7 +1,6 @@
 /**
- * @file            Manages configuration of navigation shared throughout site
- * @description     Adds nav section to body
- * @TODO            Dynamic <li> so this doesn't need to be outside of js/nav.js
+ * @file Manages configuration of navigation shared throughout site
+ * @description Adds nav section to body
  */
 document.write(`<nav class="navbar navbar-expand-lg navbar-light bg-light">
                   <div class="container-fluid">
@@ -16,16 +15,16 @@ document.write(`<nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav">
                         <li class="nav-item">
-                          <a class="nav-link" aria-current="page" href="#">Home</a>
+                          <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="reviews/nintendo.html">Nintendo</a>
+                          <a class="nav-link" href="nintendo.html">Nintendo</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="reviews/traditional.html">Traditional</a>
+                          <a class="nav-link" href="traditional.html">Traditional</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="reviews/youtube.html">YouTube</a>
+                          <a class="nav-link" href="youtube.html">YouTube</a>
                         </li>
                       </ul>
                     </div>
