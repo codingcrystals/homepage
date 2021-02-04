@@ -4,7 +4,8 @@
 [CS50](https://cs50.harvard.edu/x/2021/)
 -----------
 ### Overview
-For my homepage project, I've developed a website that features reviews of some of my sons favorite games and entertainment.
+For my homepage project, I've developed a website that features reviews of some of my sons favorite games and entertainment. Stored in an object, the reviews are displayed as
+Bootstrap cards for each category page.
 
 
 ### [Specification](https://cs50.harvard.edu/x/2021/psets/8/homepage/#specification)
