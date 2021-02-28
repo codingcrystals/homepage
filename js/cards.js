@@ -21,11 +21,16 @@ const createCards = () => {
 // Boostrap Card
 // https://getbootstrap.com/docs/4.0/components/card/#titles-text-and-links
 const addCards = review => {
+    console.log(review.title)
+
+    const cardContainer = document.createElement("div")
+    cardContainer.classList.add("container")
+    document.body.append(cardContainer)
 
     const card = document.createElement("div")
     card.classList.add("card")
     card.id = "card"
-    document.body.append(card)
+    cardContainer.appendChild(card)
 
     const cardMedia = card.appendChild(document.createElement("iframe"))
     cardMedia.classList.add("card-img-top")
@@ -40,18 +45,19 @@ const addCards = review => {
     cardBody.classList.add("card-body")
 
     const cardTitle = document.createElement("h2")
-    cardTitle.innerHTML = "Card Title"
+    cardTitle.classList.add("card-title")
+    cardTitle.innerHTML = review.title
     cardBody.appendChild(cardTitle)
 
     const cardText = document.createElement("p")
-    cardText.innerHTML = "Some quick example text to build on the card title and make up the bulk of the card's content."
+    cardText.innerHTML = review.review
     cardText.classList.add("card-title")
     cardBody.appendChild(cardText)
 
     const cardLink = document.createElement("a")
-    cardLink.href = "#"
+    cardLink.href = review.webpage
     cardLink.classList.add("btn", "btn-primary")
-    cardLink.innerHTML = "Go somewhere"
+    cardLink.innerHTML = `Check Out ${review.title}`
     cardBody.appendChild(cardLink)
 
 }

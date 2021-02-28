@@ -2,7 +2,7 @@ const reviews = {
   "youtube": {
     "1": {
       "review-date": "01/31/2021",
-      "subject": "Ryan's World",
+      "title": "Ryan's World",
       "webpage": "https://www.youtube.com/channel/UChGJGhZ9SOOHvBB0Y4DOO_w",
       "media": "https://www.youtube.com/embed/2tPq6noQ6R4",
       "review": "Ryan's World features a growing boy exploring toys and games with his parents. His twin sisters, Emma and Kate, start to appear more in recent years. It has a lot of good values. Parents engaging with their child, playing creative games, doing science expiraments, and challenges. It's a cute show, and it's fun to watch Ryan grow. There are some hmm moments, like Ryan winning every single game. Showcasing that he has dozens of motorized vehicles. Other such unrealistic aspects. It is entertainment though, not real life.",
@@ -10,7 +10,7 @@ const reviews = {
     },
     "2": {
       "review-date": "01/31/2021",
-      "subject": "GamerGirl",
+      "title": "GamerGirl",
       "webpage": "https://www.youtube.com/channel/UCije75lmV_7fVP7m4dJ7ZoQ",
       "media": "https://www.youtube.com/embed/I306oMXkrMA",
       "review": "She's a 13 year old playing video games. That's key to sucking up any amount of tolerance for the show. The zombie look on her face and mouthy expressions are a bit over the top. Her videos serve as a way to talk to my kid about not being rude, calling people stupid, or jumping to conclusions. It can't go without saying that she has 5.4 million subscribers, which is a remarkable accomplishment. Hopefully as she matures, her content becomes less abrasive.",
@@ -18,7 +18,7 @@ const reviews = {
     },
     "3": {
       "review-date": "01/31/2021",
-      "subject": "Alphablocks",
+      "title": "Alphablocks",
       "webpage": "https://www.youtube.com/channel/UC_qs3c0ehDvZkbiEbOj6Drg",
       "media": "https://www.youtube.com/embed/bORaqCmIT7o",
       "review": "These cute animated letter blocks dance and sing around the screen sounding out letters and spelling words. The songs are catchy and can get stuck in my head. They tackle harder concepts, like the differences in 'e'.",
@@ -28,7 +28,7 @@ const reviews = {
   "traditional": {
     "1": {
       "review-date": "01/31/2021",
-      "subject": "Candy Land",
+      "title": "Candy Land",
       "webpage": "https://shop.hasbro.com/en-us/product/candy-land-game:C4E461C2-5056-9047-F5F7-F005920A3999",
       "media": "https://www.youtube.com/embed/z8QLRacEghw",
       "review": "My son can't get enough of Candy Land. Sometimes we go a week or two without playing, but never longer. He loves using other toys, like Hot Wheels or figurines, as the characters. Versions have different rules though. Not just candy cards, game play too. i.e. how the licorice spaces are played. That was a bit frustrating in the beginning, before I realized he was playing different versions between my house and other places.",
@@ -36,7 +36,7 @@ const reviews = {
     },
     "2": {
       "review-date": "01/31/2021",
-      "subject": "Don't Rock the Boat",
+      "title": "Don't Rock the Boat",
       "webpage": "https://www.playmonster.com/product/dont-rock-the-boat/",
       "media": "https://www.youtube.com/embed/e5Yufxjtf-c",
       "review": "Arrrrrr, pirate penguins. Who would have thought this could go wrong? It's a fun balancing game and even has a cannon. I love it. My son can't stand it. We've owned it for almost three years now and he would do practically anything other than play this game.",
@@ -44,7 +44,7 @@ const reviews = {
     },
     "3": {
       "review-date": "01/31/2021",
-      "subject": "Happy Hats",
+      "title": "Happy Hats",
       "webpage": "https://www.universitygames.com/bobbooks",
       "media": "https://www.youtube.com/embed/_Tu10mrh-B0",
       "review": "Simple games can be so good. It's a fun way to help learning three-letter word spelling. The game play keeps my son entertained. Between a spinner, moving characters, cards, and collecting hat chips, there's a lot going on.",
@@ -54,7 +54,7 @@ const reviews = {
   "nintendo": {
     "1": {
       "review-date": "01/31/2021",
-      "subject": "Super Mario Party",
+      "title": "Super Mario Party",
       "webpage": "https://www.nintendo.com/games/detail/super-mario-party-switch/",
       "media": `https://www.youtube.com/embed/by_XTria-mQ`,
       "review": "I've loved Mario Party since it originally came out. It was a no brainer for a first game for a five year old. Simple navigation of the boards, not too much complicated controller combinations. He took to it quickly, and the cartoonish nature obviously appeals to him. I like the free range two-person game play the most. I'll set him up with a Very Hard comp partner, and make mine Normal. Keeps the playing field a bit more balanced.",
@@ -62,7 +62,7 @@ const reviews = {
     },
     "2": {
       "review-date": "01/31/2021",
-      "subject": "Switch Online",
+      "title": "Switch Online",
       "webpage": "https://www.nintendo.com/switch/online-service/",
       "media": "https://www.youtube.com/embed/t2MbclhRzmg",
       "review": "Ahhh.. it has it's place. Doesn't do much for my son, but I like playing the nostalgic games. The biggest issue I have with it, is their child account settings. That's how I originally had it setup, but even without parental controls his account couldn't access many games because of his birth year. Not sure why companies are becoming so overwhelming with parenting children. Eventually, I deleted his account and we just use mine. He understands he's not allowed to play all games, and to ask before (well that's how it goes with phone and tablet games, but he has zero interest in old Nintendo games). Nintendo need not worry about babysitting him.",
@@ -70,7 +70,7 @@ const reviews = {
     },
     "3": {
       "review-date": "01/31/2021",
-      "subject": "Just Dance 2020",
+      "title": "Just Dance 2020",
       "webpage": "https://www.nintendo.com/games/detail/just-dance-2020-switch/",
       "media": "https://www.youtube.com/embed/zPrZlhniWKc",
       "review": "I didn't know what to expect when we got this. He's not into it, but I think it may grow on him. He's a bit into Super Mario Party at the moment. I'm disappointed in the limited songs available without a subscription purchase. It's my first time buying a game in this series, pretty annoying for a full priced game to be incomplete.",
