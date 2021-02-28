@@ -1,36 +1,34 @@
 // Filter reviews to add one card for each review in current category
 const createCards = () => {
-    // Get slug from current page
-    const reviewsPathName = window.location.pathname;
-    const reviewsSlug = [reviewsPathName.substring(reviewsPathName.lastIndexOf("/") + 1, reviewsPathName.lastIndexOf("."))]
+  // Get slug from current page
+  const reviewsPathName = window.location.pathname;
+  const reviewsSlug = [reviewsPathName.substring(reviewsPathName.lastIndexOf("/") + 1, reviewsPathName.lastIndexOf("."))]
 
-    const filterReviews = Object.keys(reviews)
-      .filter(key => reviewsSlug.includes(key))
-      .reduce((obj, key) => {
-        obj[key] = reviews[key];
-        return obj;
-      }, {});
+  // Filter reviews that match current page
+  const filterReviews = Object.keys(reviews)
+    .filter(key => reviewsSlug.includes(key))
+    .reduce((obj, key) => {
+      obj[key] = reviews[key];
+      return obj;
+    }, {});
 
-    const currentReviews = Object.values(filterReviews[reviewsSlug])
+  const currentReviews = Object.values(filterReviews[reviewsSlug])
 
-    for (const review of currentReviews) {
-      addCards(review)
-    }
+  // Add a card for each current review
+  for (const review of currentReviews) {
+    addCards(review)
+  }
 }
 
 // Boostrap Card
 // https://getbootstrap.com/docs/4.0/components/card/#titles-text-and-links
 const addCards = review => {
-    console.log(review.title)
 
-    const cardContainer = document.createElement("div")
-    cardContainer.classList.add("container")
-    document.body.append(cardContainer)
+    const cardContainer = document.getElementsByClassName("container")
 
-    const card = document.createElement("div")
+    const card = cardContainer[0].appendChild(document.createElement("div"))
     card.classList.add("card")
     card.id = "card"
-    cardContainer.appendChild(card)
 
     const cardMedia = card.appendChild(document.createElement("iframe"))
     cardMedia.classList.add("card-img-top")
