@@ -78,5 +78,3 @@ const reviews = {
     }
   }
 }
-
-console.log(reviews)
