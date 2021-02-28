@@ -61,7 +61,20 @@ Implement in your homepage directory a website that must:
 
 - [ ] Have at least one stylesheet file of your own creation, styles.css
     - [ ] At least five (5) different CSS selectors
+<details>
+  <summary><center><sub>Unsatisfied</sub></center></summary>
+  <ol type="I">
+      <li value="1"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors">Class selectors</a></li>
+  </ol>
+</details>
     - [ ] At least five (5) different CSS properties
+<details>
+  <summary><center><sub>Unsatisfied</sub></center></summary>
+  <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/width">Width</a></li>
+  </ul>
+</details>
+
 
 - [x] Integrate one or more features of JavaScript into your site to make your site more interactive.
   <details>

@@ -1,16 +1,35 @@
-const addCards = () => {
-    const a = document.createElement("a")
-    const img = document.createElement("img")
-    const p = document.createElement("p")
+// Filter reviews to add one card for each review in current category
+const createCards = () => {
+    // Get slug from current page
+    const reviewsPathName = window.location.pathname;
+    const reviewsSlug = [reviewsPathName.substring(reviewsPathName.lastIndexOf("/") + 1, reviewsPathName.lastIndexOf("."))]
 
-    // Create Bootstrap Card in DOM
-    // https://getbootstrap.com/docs/4.0/components/card/#titles-text-and-links
+    const filterReviews = Object.keys(reviews)
+      .filter(key => reviewsSlug.includes(key))
+      .reduce((obj, key) => {
+        obj[key] = reviews[key];
+        return obj;
+      }, {});
+
+    const currentReviews = Object.values(filterReviews[reviewsSlug])
+
+    for (const review of currentReviews) {
+      addCards(review)
+    }
+
+
+}
+
+// Boostrap Card
+// https://getbootstrap.com/docs/4.0/components/card/#titles-text-and-links
+const addCards = review => {
+
     const card = document.createElement("div")
     card.classList.add("card")
     card.id = "card"
     document.body.append(card)
 
-    const cardImg = card.appendChild(img)
+    const cardImg = card.appendChild(document.createElement("img"))
     cardImg.classList.add("card-img-top")
     cardImg.src = "https://assets.nintendo.com/image/upload/f_auto,q_auto/ncom/en_US/switch/online-service/1180x493_HERO_en?v=2021013002"
     cardImg.alt = "Image of game image"
@@ -36,4 +55,4 @@ const addCards = () => {
 
 }
 
-document.body.onload = addCards
+document.body.onload = createCards
