@@ -16,8 +16,6 @@ const createCards = () => {
     for (const review of currentReviews) {
       addCards(review)
     }
-
-
 }
 
 // Boostrap Card
@@ -29,10 +27,13 @@ const addCards = review => {
     card.id = "card"
     document.body.append(card)
 
-    const cardImg = card.appendChild(document.createElement("img"))
-    cardImg.classList.add("card-img-top")
-    cardImg.src = "https://assets.nintendo.com/image/upload/f_auto,q_auto/ncom/en_US/switch/online-service/1180x493_HERO_en?v=2021013002"
-    cardImg.alt = "Image of game image"
+    const cardMedia = card.appendChild(document.createElement("iframe"))
+    cardMedia.classList.add("card-img-top")
+    cardMedia.src = review.media
+    cardMedia.frameborder = "0"
+    cardMedia.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    cardMedia.allowfullscreen
+
 
     const cardBody = document.createElement("div")
     card.appendChild(cardBody)
