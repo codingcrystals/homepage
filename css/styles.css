@@ -14,6 +14,10 @@ iframe {
     min-height: 315px;
 }
 
+div[class="card"] {
+    margin: 2%;
+}
+
 /*Universal selector*/
 * {
     font-family: 'Ubuntu', sans-serif;
@@ -34,13 +38,3 @@ iframe {
 .nav-link {
     color: #284B63 !important;
 }
-
-
-    display
-    flex-flow
-    align-items
-    min-width
-    min-height
-    font-family
-    background-color
-    color
