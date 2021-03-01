@@ -2,7 +2,7 @@
  * @file Manages configuration of navigation shared throughout site
  * @description Adds nav section to body
  */
-document.write(`<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBar" >
+document.write(`<nav class="navbar navbar-expand-lg navbar-light" id="navBar" >
                   <div class="container-fluid">
                     <button class="navbar-toggler"
                             type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

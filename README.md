@@ -61,26 +61,32 @@ Implement in your homepage directory a website that must:
       </ul>
   </details>
 
-- [ ] Have at least one stylesheet file of your own creation, styles.css
-    - [ ] At least five (5) different CSS selectors
+- [x] Have at least one stylesheet file of your own creation, styles.css
+    - [x] At least five (5) different CSS selectors
 <details>
       <summary><i>Implementation</i></summary>
   <ol>
       <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors">Class selectors</a></li>
       <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors">Type selectors</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Selector_list">Selector List</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors">Type selectors</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors">Type selectors</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors">Universal Selector</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors">Id selectors</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">Attribute selectors</a></li>
   </ol>
 </details>
-    - [ ] At least five (5) different CSS properties
+    - [x] At least five (5) different CSS properties
 <details>
       <summary><i>Implementation</i></summary>
-  <ul>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/width">Width</a></li>
-  </ul>
+      <ol>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/align-items">align-items</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-color">background-color</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color">color</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">display</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow">flex-flow</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family">font-family</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/min-height">min-height</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/min-width">min-width</a></li>
+    </ol>
 </details>
-
 
 - [x] Integrate one or more features of JavaScript into your site to make your site more interactive.
   <details>
@@ -94,4 +100,3 @@ Implement in your homepage directory a website that must:
       <summary><i>Implementation</i></summary>
       <p>Bootstrap is equiped for responsive designs. The navigation shrinks to a hamburger menu on smaller screens.</p>
   </details>
-

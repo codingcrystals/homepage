@@ -1,10 +1,46 @@
-/*Card Display*/
+/*Class selector*/
 .container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
-/* Review Cards */
-.card, iframe {
+/*Attribute selector*/
+div[class="card"],
+/*Type selector*/
+iframe {
     width: 18rem;
     min-width: 560px;
     min-height: 315px;
 }
+
+/*Universal selector*/
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: #353535;
+}
+
+/*ID Selector*/
+#nintendo,
+#traditional,
+#youtube {
+    color: #3C6E71;
+}
+
+.navbar {
+    background-color: #D9D9D9;
+}
+
+.nav-link {
+    color: #284B63 !important;
+}
+
+
+    display
+    flex-flow
+    align-items
+    min-width
+    min-height
+    font-family
+    background-color
+    color

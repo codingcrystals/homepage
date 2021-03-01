@@ -13,22 +13,24 @@ const createCards = () => {
     }, {});
 
   const currentReviews = Object.values(filterReviews[reviewsSlug])
-
+  let id = 0
   // Add a card for each current review
   for (const review of currentReviews) {
-    addCards(review)
+
+    addCards(review, `${reviewsSlug}${id}`)
+    id++
   }
 }
 
 // Boostrap Card
 // https://getbootstrap.com/docs/4.0/components/card/#titles-text-and-links
-const addCards = review => {
+const addCards = (review, id) => {
 
     const cardContainer = document.getElementsByClassName("container")
 
     const card = cardContainer[0].appendChild(document.createElement("div"))
     card.classList.add("card")
-    card.id = "card"
+    card.id = id
 
     const cardMedia = card.appendChild(document.createElement("iframe"))
     cardMedia.classList.add("card-img-top")
