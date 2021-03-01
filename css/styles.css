@@ -5,8 +5,7 @@
     align-items: center;
 }
 
-/*Attribute selector*/
-div[class="card"],
+.card,
 /*Type selector*/
 iframe {
     width: 18rem;
@@ -14,8 +13,10 @@ iframe {
     min-height: 315px;
 }
 
+/*Attribute selector*/
 div[class="card"] {
     margin: 2%;
+    border-radius: 2%;
 }
 
 /*Universal selector*/
@@ -38,3 +39,14 @@ div[class="card"] {
 .nav-link {
     color: #284B63 !important;
 }
+
+.jumbotron {
+    background-color: #3C6E71 !important;
+    height: 90vh;
+    padding: 0 1%;
+}
+
+.jumbotron > *, a, em {
+    color: white !important;
+}
+

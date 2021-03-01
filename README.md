@@ -50,6 +50,7 @@ Implement in your homepage directory a website that must:
           <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe">iframe</a></li>
           <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p">p</a></li>
           <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">Headings</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em">em</a></li>
       </ol>
   </details>
 
@@ -58,6 +59,8 @@ Implement in your homepage directory a website that must:
       <summary><i>Implementation</i></summary>
       <ul>
           <li><a href='https://getbootstrap.com/docs/5.0/components/navbar/'>Nav Bar</a></li>
+          <li><a href='https://getbootstrap.com/docs/4.0/components/jumbotron/'>Jumbotron</a></li>
+          <li><a href='https://getbootstrap.com/docs/4.0/components/card/'>Card</a></li>
       </ul>
   </details>
 
